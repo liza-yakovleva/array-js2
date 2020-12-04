@@ -4,7 +4,7 @@
 let num = prompt("Введіть числа через кому?", "")
 let arr = num.split(",")
 arr.sort(function (a, b) {
-  return a - b;
+  return b - a;
 });
 console.log(arr);
 
